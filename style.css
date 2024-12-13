@@ -27,7 +27,7 @@ letters > img, letters > div {
 }
 
 #lorem {
-    position: absolute;
+    position: fixed;
     top: 0;
     z-index: -1;
     color: rgba(0, 0, 0, .1);
