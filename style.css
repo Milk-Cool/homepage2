@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+
+* {
+    font-family: serif;
+}
+
+letters {
+    display: block;
+    width: max-content;
+}
+
+#lorem {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    color: rgba(0, 0, 0, .1);
+    font-size: .6em;
+    line-height: .65em;
+    font-family: "Orelega One", serif;
+    pointer-events: none;
+    background: white;
+}
+#hi, #projects {
+    mix-blend-mode: color-burn;
+    text-align: center;
+    color: black;
+}
+#hi {
+    font-size: 5em;
+}
+#projects {
+    font-size: 3em;
+}
+#title {
+    margin-left: auto;
+    margin-right: auto;
+}
