@@ -1,7 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 
-* {
-    font-family: serif;
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+a {
+    color: red;
 }
 
 letters {
@@ -19,8 +25,9 @@ letters {
     font-family: "Orelega One", serif;
     pointer-events: none;
     background: white;
+    width: 110vw;
 }
-#hi, #projects {
+#hi, #projects, .category {
     mix-blend-mode: color-burn;
     text-align: center;
     color: black;
@@ -28,10 +35,47 @@ letters {
 #hi {
     font-size: 5em;
 }
-#projects {
+#projects, .category {
     font-size: 3em;
 }
 #title {
     margin-left: auto;
     margin-right: auto;
+}
+
+/* https://codepen.io/kkl/pen/bVKeNw */
+
+.block {
+    background: #F5DEB3; /* wheat */
+    width: calc(100vw - 4em);
+    padding: 2em;
+    position: relative;
+    font-family: "Roboto Slab", serif;
+    margin-top: 6em;
+}
+.block::before {
+    content: "";
+    position: absolute;
+    top: -29px;
+    height: 30px;
+    width: 100%;
+    left: 0;
+    background: url(rip.svg) bottom;
+    transform: rotate(180deg);
+}
+.block::after {
+    content: "";
+    position: absolute;
+    top: calc(100% - 1px);
+    height: 30px;
+    width: 100%;
+    left: 0;
+    background: url(rip.svg) bottom;
+}
+.block:nth-child(2n) > letters {
+    margin-left: auto;
+    margin-right: 0;
+}
+.block:nth-child(2n) {
+    text-align: right;
 }
