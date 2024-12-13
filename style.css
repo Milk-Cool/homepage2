@@ -17,6 +17,13 @@ a {
 letters {
     display: block;
     width: max-content;
+    max-width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+letters > img, letters > div {
+    flex-shrink: 0;
 }
 
 #lorem {
