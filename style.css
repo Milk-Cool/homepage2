@@ -10,6 +10,10 @@ a {
     color: red;
 }
 
+*:not(#lorem):not(.block) {
+    font-family: serif;
+}
+
 letters {
     display: block;
     width: max-content;
