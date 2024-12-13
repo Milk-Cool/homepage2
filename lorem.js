@@ -38,4 +38,4 @@ const lorem = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ma
             
             Etiam malesuada semper commodo. Cras fringilla molestie nisl, vitae semper nunc ultrices non. Pellentesque egestas sem at porttitor pretium. Nullam posuere quam vel consequat varius. Nulla facilisi. Proin nulla dolor, vulputate quis enim at, sodales vehicula diam. In lobortis dui a mi venenatis, et volutpat ipsum feugiat. Etiam convallis leo sed enim mattis, quis auctor lacus ultrices. Nunc convallis nulla eu leo euismod egestas sed at turpis. Donec faucibus est sit amet fermentum hendrerit. Etiam at nulla nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac convallis enim. Nulla facilisi.`;
 
-document.querySelector("#lorem").innerText = lorem.replaceAll("\n", " ").repeat(5);
+document.querySelector("#lorem").innerText = lorem.replaceAll("\n", " ").repeat(50);
