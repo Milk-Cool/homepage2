@@ -97,3 +97,7 @@ letters > img, letters > div {
     margin-right: max(0px, calc(50vw - var(--block-width) / 2));
     margin-left: max(0px, calc(50vw - var(--block-width) / 2));
 }
+
+#buttons {
+    width: fit-content;
+}
