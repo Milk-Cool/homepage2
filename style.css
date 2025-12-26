@@ -101,3 +101,6 @@ letters > img, letters > div {
 #buttons {
     width: fit-content;
 }
+#buttons img {
+    image-rendering: pixelated;
+}
